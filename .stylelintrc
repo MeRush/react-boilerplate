@@ -1,7 +1,6 @@
 {
-  "processors": ["stylelint-processor-styled-components"],
-  "extends": [
-    "stylelint-config-recommended",
-    "stylelint-config-styled-components"
-  ]
+  "plugins": ["stylelint-scss"],
+  "rules": {
+    "value-list-comma-newline-after": "always-multi-line"
+  }
 }

@@ -60,6 +60,12 @@ module.exports = {
         templateFile: './component/test.js.hbs',
         abortOnFail: true,
       },
+      {
+        type: 'add',
+        path: '../../app/components/{{properCase name}}/styles.scss',
+        templateFile: './component/styles.scss.hbs',
+        abortOnFail: true,
+      },
     ];
 
     // If the user wants i18n messages

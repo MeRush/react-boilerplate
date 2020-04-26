@@ -75,6 +75,12 @@ module.exports = {
         templateFile: './container/test.js.hbs',
         abortOnFail: true,
       },
+      {
+        type: 'add',
+        path: '../../app/containers/{{properCase name}}/styles.scss',
+        templateFile: './container/styles.scss.hbs',
+        abortOnFail: true,
+      },
     ];
 
     // If component wants messages
