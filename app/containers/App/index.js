@@ -25,7 +25,7 @@ export default function App() {
         <meta name="description" content="It code application" />
       </Helmet>
       <Header />
-      <main>
+      <main className="main">
         <Switch>
           <Route exact path="/" component={HomePage} />
           <Route path="" component={NotFoundPage} />

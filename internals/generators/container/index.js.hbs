@@ -47,7 +47,7 @@ export function {{ properCase name }}() {
   {{/if}}
 
   return (
-    <div>
+    <>
     {{#if wantHeaders}}
       <Helmet>
         <title>{{properCase name}}</title>
@@ -57,7 +57,7 @@ export function {{ properCase name }}() {
     {{#if wantMessages}}
       <FormattedMessage {...messages.header} />
     {{/if}}
-    </div>
+    </>
   );
 }
 

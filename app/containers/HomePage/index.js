@@ -25,13 +25,13 @@ export function HomePage() {
   useInjectSaga({ key: 'homePage', saga });
 
   return (
-    <div>
+    <>
       <Helmet>
         <title>HomePage</title>
         <meta name="description" content="Description of HomePage" />
       </Helmet>
       {/* <FormattedMessage {...messages.header} /> */}
-    </div>
+    </>
   );
 }
 

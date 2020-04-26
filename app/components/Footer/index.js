@@ -12,7 +12,11 @@ import './styles.scss';
 // import messages from './messages';
 
 function Footer() {
-  return <footer>{/* <FormattedMessage {...messages.header} /> */}</footer>;
+  return (
+    <footer className="footer">
+      {/* <FormattedMessage {...messages.header} /> */}
+    </footer>
+  );
 }
 
 Footer.propTypes = {};

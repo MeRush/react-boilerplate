@@ -12,7 +12,11 @@ import './styles.scss';
 // import messages from './messages';
 
 function Header() {
-  return <header>{/* <FormattedMessage {...messages.header} /> */}</header>;
+  return (
+    <header className="header">
+      {/* <FormattedMessage {...messages.header} /> */}
+    </header>
+  );
 }
 
 Header.propTypes = {};

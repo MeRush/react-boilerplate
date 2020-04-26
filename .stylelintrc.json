@@ -1,0 +1,6 @@
+{
+  "plugins": ["stylelint-scss"],
+  "rules": {
+    "value-list-comma-newline-after": "always-multi-line"
+  }
+}

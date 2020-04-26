@@ -19,11 +19,11 @@ import messages from './messages';
 
 function {{ properCase name }}() {
   return (
-    <div>
+    <>
     {{#if wantMessages}}
       <FormattedMessage {...messages.header} />
     {{/if}}
-    </div>
+    </>
   );
 }
 
