@@ -16,6 +16,7 @@ import Header from 'components/Header';
 import Footer from 'components/Footer';
 
 import './styles.scss';
+import '../../common-styles.scss';
 import GlobalStyle from '../../global-styles';
 
 export default function App() {
