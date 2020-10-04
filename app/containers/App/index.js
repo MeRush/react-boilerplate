@@ -17,7 +17,6 @@ import Footer from 'components/Footer';
 
 import './styles.scss';
 import '../../common-styles.scss';
-import GlobalStyle from '../../global-styles';
 
 export default function App() {
   return (
@@ -33,7 +32,6 @@ export default function App() {
         </Switch>
       </main>
       <Footer />
-      <GlobalStyle />
     </div>
   );
 }
